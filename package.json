@@ -1,0 +1,23 @@
+{
+  "name": "telegram-trading-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for crypto trading signals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "ccxt": "^4.1.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "technicalindicators": "^3.1.0",
+    "axios": "^1.5.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "winston": "^3.10.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
