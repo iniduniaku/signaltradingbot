@@ -72,6 +72,7 @@ git clone https://github.com/your-username/futures-trading-bot.git
 cd futures-trading-bot
 npm install
 cp .env.example .env
+nano .env
 Edit .env file with your settings:
 mkdir logs
 # Production mode
